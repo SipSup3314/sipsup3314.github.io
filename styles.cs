@@ -1,0 +1,36 @@
+  .title {
+  text-align: center;
+  background: #44FF44;
+}
+.site-links {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background: #44FF44;
+}
+#buttonSelect {
+  background-color: #FFFFFF;
+  height: 75px;
+  width: 350px;
+  transition-duration: 0.3s;
+  font-size: 1.5vw;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: gray;
+}
+footer {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background: #FFFFFF;
+}
+#buttonSelect:hover {
+  background-color: #000000;
+  color: white;
+  width: 360px;
+  height: 85px;
+  transition-duration: 0.3s;
+  font-size: 1.5vw;
+  border-radius: 15px;
+  border-color: white;
+}
