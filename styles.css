@@ -1,4 +1,4 @@
-  .title {
+html {
   text-align: center;
   background: #44FF44;
 }
@@ -22,7 +22,7 @@ footer {
   color: black;
   text-align: center;
   text-decoration: none;
-  background: #FFFFFF;
+  background: #44FF44;
 }
 #buttonSelect:hover {
   background-color: #000000;
