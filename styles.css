@@ -32,3 +32,7 @@ footer {
   border-radius: 15px;
   border-color: white;
 }
+table {
+  margin: auto;
+  text-decoration:none;
+}
