@@ -10,7 +10,7 @@ body {
   text-align: center;
   text-decoration: none;
 }
-#buttonSelect {
+.buttonSelect {
   background-color: #FFFFFF;
   height: 75px;
   width: 350px;
@@ -25,11 +25,11 @@ footer {
   text-align: center;
   text-decoration: none;
 }
-#buttonSelect:hover {
+.buttonSelect:hover {
   background-color: #000000;
   color: white;
-  width: 360px;
-  height: 85px;
+  width: 350px;
+  height: 75px;
   transition-duration: 0.3s;
   font-size: 1.5vw;
   border-radius: 15px;
