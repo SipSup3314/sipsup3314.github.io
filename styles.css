@@ -12,8 +12,8 @@ body {
 }
 .buttonSelect {
   background-color: #FFFFFF;
-  height: 75px;
-  width: 350px;
+  height: 5vw;
+  width: 30vw;
   transition-duration: 0.3s;
   font-size: 1.5vw;
   border-radius: 8px;
@@ -28,8 +28,8 @@ footer {
 .buttonSelect:hover {
   background-color: #000000;
   color: white;
-  width: 350px;
-  height: 75px;
+  width: 30vw;
+  height: 5vw;
   transition-duration: 0.3s;
   font-size: 1.5vw;
   border-radius: 15px;
