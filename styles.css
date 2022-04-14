@@ -20,6 +20,7 @@ body {
   border-radius: 8px;
   border-width: 3px;
   border-color: gray;
+  margin: 1vw;
 }
 footer {
   color: black;
@@ -29,12 +30,13 @@ footer {
 .buttonSelect:hover {
   background-color: #000000;
   color: white;
-  width: 30vw;
-  height: 5vw;
+  width: 31vw;
+  height: 6vw;
   transition-duration: 0.3s;
   font-size: 1.5vw;
   border-radius: 15px;
   border-color: white;
+  margin: 0.5vw;
 }
 table {
   margin: auto;
