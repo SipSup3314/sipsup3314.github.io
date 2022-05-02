@@ -1,10 +1,10 @@
 img {
-  margin:auto;
+  margin: auto;
   width: 30%;
 }
 body {
   text-align: center;
-  background-color: #44FF44;
+  background-color: #44ff44;
 }
 .site-links {
   color: black;
@@ -12,15 +12,19 @@ body {
   text-decoration: none;
 }
 .buttonSelect {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   height: 5vw;
   width: 30vw;
   transition-duration: 0.3s;
   font-size: 1.5vw;
-  border-radius: 8px;
+  border-radius: 15px;
   border-width: 3px;
   border-color: gray;
   margin: 0.5vw;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 footer {
   color: black;
@@ -37,8 +41,12 @@ footer {
   border-radius: 15px;
   border-color: white;
   margin: 0vw;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 table {
   margin: auto;
-  text-decoration:none;
+  text-decoration: none;
 }
