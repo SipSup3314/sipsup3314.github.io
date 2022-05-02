@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Message Encoder/Decoder</title>
-    <link rel="stylesheet" href="styles.css"/>
-    <link rel="shortcut icon" type="image/jpg" href="favicon.png"/>
-    <link rel="apple-touch-icon" href="favicon.png"/>
-  </head>
-  <body>
-    <div class="title">
-      <h1>Message Encoder/Decoder</h1>
-      <h3>Ever wanted to hide a message?</h3>
-    <div class="site-links">
-    <a href="javascript:var input = prompt('Type e for encoding or d for decoding'); if(input=='e'){var message=prompt('Enter a message to encode'); prompt('Here is your message',btoa(btoa(btoa(btoa(btoa(btoa(message)))))));null(0);}else if(input=='d'){var message=prompt('Enter a message to decode'); prompt('Here is your message',atob(atob(atob(atob(atob(atob(message)))))));null(0);}else{null(0);}"><button class="buttonSelect" type="button"><b>Click to Start</b></button></button></a><br>
-    <image src="message.png" width="300" height="200"></image>
-  </div>
-  </body>
-  <footer>
-    <br>
-    <p>Please review this site!</p>
-    <p><a href="review.html"><button class="buttonSelect" type="button"><b>Click here to review.</b></button></a></p>
-  </footer>
+    <head>
+        <title>Message Encoder/Decoder</title>
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="shortcut icon" type="image/jpg" href="favicon.png"/>
+        <link rel="apple-touch-icon" href="favicon.png"/>
+    </head>
+    <body>
+        <div class="title">
+        <h1>Message Encoder/Decoder</h1>
+        <h3>Ever wanted to hide a message?</h3>
+        <div class="site-links">
+        </div>
+        <input type="text" id="input"/>
+        <button onclick="encode();">Encode</button>
+        <button onclick="decode();" >Decode</button>
+        <p id="output"> </p>
+        <script>
+            var input = document.getElementById("input");
+            var output = document.getElementById("output");
+            function encode(){
+                output.innerHTML=btoa(input.value);
+            }
+            function decode(){
+                output.innerHTML=atob(input.value);
+            }
+        </script>
+    </body>
+    <footer>
+        <br>
+        <p>Please review this site!</p>
+        <p><a href="review.html"><button class="buttonSelect" type="button"><b>Click here to review.</b></button></a></p>
+    </footer>
 </html>
