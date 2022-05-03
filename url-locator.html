@@ -1,3 +1,8 @@
 <script>
-  window.location.href = prompt("Enter a url");
+  var prompt = prompt("Enter a url");
+  if(prompt==null||prompt==""){
+    void(0);
+  }else{
+    window.location.href = prompt;
+  }
 </script>
