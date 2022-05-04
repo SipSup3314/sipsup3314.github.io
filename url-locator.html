@@ -1,8 +1,13 @@
 <script>
   var prompt = prompt("Enter a url");
+  if(!prompt.includes("https://")){
+    var prompt1 = "https://"+prompt;
+  }else{
+    var prompt1 = prompt;
+  }
   if(prompt==null||prompt==""){
     void(0);
   }else{
-    window.location.href = prompt;
+    window.location.href = prompt1;
   }
 </script>
