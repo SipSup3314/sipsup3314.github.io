@@ -1,6 +1,6 @@
 <script>
   var prompt = prompt("Enter a url");
-  if(!prompt.includes("https://")||!prompt.includes("http://")){
+  if(!prompt.includes("https://")&&!prompt.includes("http://")){
     var prompt1 = "https://"+prompt;
   }else{
     var prompt1 = prompt;
