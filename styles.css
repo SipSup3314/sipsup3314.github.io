@@ -23,7 +23,7 @@ body {
   background-color: #ffffff;
   height: 5vw;
   width: 30vw;
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
   font-size: 1.5vw;
   border-radius: 15px;
   border-width: 3px;
@@ -33,6 +33,8 @@ body {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+  position: relative;
+  top: 0;
 }
 footer {
   color: black;
@@ -40,19 +42,8 @@ footer {
   text-decoration: none;
 }
 .buttonSelect:hover {
-  background-color: #000000;
-  color: white;
-  width: 31vw;
-  height: 6vw;
-  transition-duration: 0.3s;
-  font-size: 1.65vw;
-  border-radius: 15px;
-  border-color: white;
-  margin: 0vw;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
+  position: relative;
+  top: -5px;
 }
 .heads {
   display: flex;
